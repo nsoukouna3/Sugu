@@ -1,0 +1,23 @@
+{
+  "name": "sugu",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "# Part 1 1. installation 2. Create React App 3. Nav Bar 4. Create Git Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsoukouna3/Sugu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsoukouna3/Sugu/issues"
+  },
+  "homepage": "https://github.com/nsoukouna3/Sugu#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

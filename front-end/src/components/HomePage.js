@@ -1,13 +1,22 @@
-import { Link } from "react-router-dom";
-//import data from "../data";
+
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+import ProductCard from "./Cards";
+
 
 function HomeScreen(){
   const [products, setProducts]= useState([]);
   useEffect(()=>{
+    let result;
+
     const fecthData= async()=>{
-      const result=await axios.get('/api/products')
+      try {
+        result = await axios.get('/api/products')
+      } catch(err) {
+        return;
+      }
       setProducts(result.data)
 
     }
@@ -17,22 +26,14 @@ function HomeScreen(){
 
   return <div> <h1>Feature Products</h1>
     <div className="products" >
-      {
-    products.map((product)=>(
-      <div className="product-item" key={product.slug}>
-        <Link to={`product-item/${product.slug}`}>
-          <img src={product.image} alt={product.name}/>
-        </Link>
-        <div className='product-info' >
-          <Link to={`product-item/${product.slug}`}>
-          <p>{product.name}</p> 
-          </Link>
-          <p><strong>${product.price}</strong></p>
-          <button>Add to Cart</button>
-        </div>
-
-        </div>))}
-      </div>
-    </div>
+      <Row>
+          {products.map((product)=>(
+            <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
+              <ProductCard product={product}></ProductCard>
+            </Col>))
+          }
+        </Row>
+     </div>
+  </div>
 }
 export default HomeScreen;

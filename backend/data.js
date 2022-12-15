@@ -4,25 +4,25 @@ const data={
             name:'Nike Slim Shirt' ,
             slug:'nike-slim-shirt' ,
             category:'Shirts' ,
-            image:'/images/p1.jpeg',
+            image:'/images/nike-slim-shirt.jpeg',
             price:120,
             countInStock:10,
             brand:'Nike',
-            rating:4.5,
-            numReviews:10,
+            rating:2.5,
+            numReviews:20,
             description:'high quality product'
 
         },
         {
             name:'Adidas Fit Shirt' ,
-            slug:'adidas-fit-shirt' ,
+            slug:'adidas-fit-shirt',
             category:'Shirts' ,
-            image:'/images/p2.jpeg',
+            image:'/images/adidas-fit-shirt.jpeg',
             price:250,
-            countInStock:20,
+            countInStock:0,
             brand:'Nike',
             rating:4.0,
-            numReviews:10,
+            numReviews:13,
             description:'high quality product'
 
         },
@@ -30,7 +30,7 @@ const data={
             name:'Nike Slim Pant' ,
             slug:'nike-slim-pant' ,
             category:'Pant' ,
-            image:'/images/p3.jpeg',
+            image:'/images/nike-slim-pant.jpeg',
             price:25,
             countInStock:15,
             brand:'Nike',
@@ -43,49 +43,49 @@ const data={
             name:'Adidas Fit Pant' ,
             slug:'adidas-fit-pant' ,
             category:'Pant' ,
-            image:'/images/p4.jpeg',
+            image:'/images/adidas-fit-pant.jpeg',
             price:65,
-            countInStock:5,
+            countInStock:0,
             brand:'Nike',
-            rating:4.5,
-            numReviews:10,
+            rating:5,
+            numReviews:50,
             description:'high quality product'
 
         },
-       /*
+       
         {
-            name:'Long Sleeve Slim Fit' ,
-            slug:'Long-Sleeve-Slim-fit' ,
+            name:'Muscle Gym Workout' ,
+            slug:'Muscle-Gym-Workout' ,
             category:'Pant' ,
-            image:'/images/p6.jpg',
-            price:65,
+            image:'/images/Muscle-Gym-Workout.jpeg',
+            price:45,
             countInStock:5,
             brand:'Nike',
-            rating:4.5,
+            rating:3,
             numReviews:10,
             description:'high quality product'
 
         },
          
         {
-            name:'Sleeve Solid Polo Shirt' ,
-            slug:'Sleeve-Solid-Polo-Shirt' ,
+            name:'Short Sleeve Linen' ,
+            slug:'Short-Sleeve-Linen' ,
             category:'Pant' ,
-            image:'/images/p7.jpg',
-            price:65,
+            image:'/images/Short-Sleeve-Linen.jpeg',
+            price:50,
             countInStock:5,
             brand:'Nike',
             rating:4.5,
-            numReviews:10,
+            numReviews:39,
             description:'high quality product'
 
         },
         
         {
-            name:'Fitness Jogging Pants',
-            slug:'Fitness-Jogging-Pants',
+            name:'Sleeve Stretch Slim-Fit',
+            slug:'Sleeve-Stretch-Slim-Fit',
             category:'Pant' ,
-            image:'/images/p7.jpg',
+            image:'/images/Sleeve-Stretch-Slim-Fit.jpeg',
             price:65,
             countInStock:5,
             brand:'Nike',
@@ -95,19 +95,19 @@ const data={
 
         },
         {
-            name:'Waistband Plain Front Pant',
-            slug:'Waistband-Plain-Front-Pant' ,
+            name:'Cottage Escape Flannel Shirt',
+            slug:'Cottage-Escape-Flannel-Shirt' ,
             category:'Pant' ,
-            image:'/images/p8.jpg',
-            price:65,
-            countInStock:5,
+            image:'/images/Cottage-Escape-Flannel-Shirt.jpeg',
+            price:35,
+            countInStock:0,
             brand:'Nike',
-            rating:4.5,
+            rating:3,
             numReviews:10,
             description:'high quality product'
 
         },
-        */
+        
     ],
 }
 

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 .site-container{
   min-height: 100vh;
@@ -34,7 +35,7 @@ main{
 
 /* Indivdual product selection*/
 .product-item{
-  border:#404040 solid;
+ 
   margin: 1rem;
 }
 /*Product image selection*/
@@ -45,4 +46,21 @@ main{
 /*product info selction*/
 .product-info{
   padding:1rem;
+}
+
+.rating span {
+  color:#ffc000;
+}
+
+.btn-primary{
+  background-color: #ffc000;
+  color: #000000;
+}
+
+.ProductPage{
+  padding-top: 2.5rem;
+}
+
+.img-large{
+  max-width: 100%;
 }
